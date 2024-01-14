@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @CrossOrigin(origins = "http://localhost:8000")
 public class HelloClass {
     
-    @RequestMapping("/hello")
+    @RequestMapping("/")
     public String sayHi() {
         return "HI";
     }

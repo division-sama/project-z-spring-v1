@@ -10,6 +10,8 @@ endpoints:
   # +required Type of the traffic this endpoint is accepting. Example: REST, GraphQL, etc.
   # Allowed values: REST, GraphQL, GRPC, UDP, TCP
   type: REST
+
+  context: /
   # +optional Network level visibility of this endpoint. Defaults to Public
   # Accepted values: Project|Organization|Public.
   networkVisibility: Project
